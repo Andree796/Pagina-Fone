@@ -1,6 +1,11 @@
-/* @keyframes animacao{
-    from {background-color: red;}
-    to {background-color: blue;}
+/* @keyframes barra{
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+
+.borda{
+    animation-name: barra;
+    animation-duration: 5s;
 } */
 
 .container{
@@ -194,9 +199,35 @@
     margin-right: 7px;
 }
 
+.text{
+    background-image: 
+        linear-gradient(
+            transparent 0%, 
+            transparent 90%,
+            #ca3b3a 90%,
+            #ca3b3a 100%
+            );
+
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    background-position-x: right;
+
+    transition: background-size 300ms;
+    text-decoration: none;
+    color: #000000;
+}
+
+.text:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
 
 /* Mobile */
 @media(max-width: 768px){
+    .ListaNavegacao{display: none;}
+    
+    
     .container{
         width: auto;
     }
@@ -268,6 +299,25 @@
     .Preco{
         justify-content: space-around;
         width: 270px;
+    }
+
+    .ListaNavegacao{
+        position: absolute;
+        right: -100vh;
+        top: 50px;
+        transition: .25s;
+        flex-direction: column;
+        background-color: #5a5a5a;
+        padding: 10px;
+    }
+
+    .ListaNavegacao li{
+        margin-bottom: 5px;
+    }
+
+    .ListaAtiva{
+        right:0px; 
+        transition: .25s;
     }
 }
 
