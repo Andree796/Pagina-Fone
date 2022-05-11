@@ -1,0 +1,149 @@
+.conteudo__principal{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50% 50%;
+  height: calc(95vh - 48px);
+}
+
+.conteudo__titulo{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #ca3b3a;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px 0 0;
+}
+
+.conteudo__titulo__principal{
+  text-align: center;
+}
+
+.conteudo__imagem__fone{
+  width: auto;
+  height: 100%;
+}
+
+.conteudo__texto{
+  font-size: 12px;
+  color: #000000;
+  font-weight: 800;
+  margin-right: 25px;
+}
+
+.conteudo__texto_frequency{
+  font-size: 12px;
+  color: #000000;
+  font-weight: 800;
+  margin-right: 84px;
+}
+
+.conteudo__texto_frequency__msg{
+  margin-right: 120px;
+  font-size: 10px;
+  color: #707070;
+  font-weight: 800;
+}
+  
+
+.conteudo__informativos{
+  grid-gap: 7px;
+  display: grid;
+}
+
+.conteudo__texto_driver{
+  margin-right: 150px;
+  font-size: 12px;
+  color: #000000;
+  font-weight: 800;
+}
+
+.conteudo__texto_driver__msg{
+  margin-right: 20px;
+  font-size: 10px;
+  color: #707070;
+  font-weight: 800;
+}
+
+.cabecalho__fone{
+  row-gap: 7px;
+  display: grid;
+  /* grid-template-rows: 35px 15px 20px 15px; */
+}
+
+.estrela:nth-child(1){
+  color: #ca3b3a;
+}
+.estrela:nth-child(2){
+  color: #ca3b3a;
+}
+.estrela:nth-child(3){
+  color: #ca3b3a;
+}
+.estrela:nth-child(4){
+  color: #ca3b3a;
+}
+.estrela:nth-child(5){
+  color: #000000;
+}
+
+.conteudo__estrelas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 7px;
+}
+
+.conteudo__texto__estrelas{
+  color: #ca3b3a;
+  font-size: 12px;
+  margin-left: 7px;
+  width: 90px;
+}
+
+.conteudo__de__informacoes{
+  width: 85%;
+}
+
+.conteudo__de__informacoes .conteudo__texto{
+  width: 100px;
+}
+
+.conteudo__preco__botao{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  transition: 3s;
+}
+
+.conteudo__preco{
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.conteudo__layout{
+  background-color: #ca3b3a;
+  padding: 15px;
+  transition: 0.6s;
+}
+
+.conteudo__layout:hover{
+  background-color: #707070;
+}
+
+.lista__clicaveis{
+  display: none;
+}
+
+.conteudo__botao{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+/* 
+.container__foto{
+  display: none;
+} */

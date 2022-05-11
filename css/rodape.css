@@ -1,0 +1,20 @@
+.rodape__container{
+  background-color: #d3d3d3;
+  padding: 15px;
+}
+
+.rodape__textos{
+  display: grid;
+  row-gap: 7px;
+}
+
+.audio, .bluetooth, .bateria{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textos{
+  color: #000000  ;
+  font-size: 12px;
+}
