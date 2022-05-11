@@ -1,0 +1,20 @@
+.app{
+  font-family: 'Montserrat', sans-serif;
+  display: grid;
+  grid-template-areas: "cabecalho" "conteudo" "rodape";
+  grid-template-columns: auto;
+  grid-template-rows: auto 95vh auto;
+}
+
+.cabecalho{
+  grid-area: cabecalho;
+}
+
+.conteudo{
+  margin-top: 15px;
+  grid-area: conteudo;
+}
+
+.rodape{
+  grid-area: rodape;
+}

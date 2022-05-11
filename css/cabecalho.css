@@ -1,0 +1,38 @@
+.Cabecalho__principal{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.cabecalho__principal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  column-gap: 5em;
+}
+
+.Itens{
+  width: auto;
+}
+
+.cabecalho__container{
+  padding-top: 10px;
+  /* width: 60%;
+  margin: 0 auto; */
+  text-align: center;
+  grid-column: 1 / 1;
+}
+
+.container__clicaveis{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.imagem__cabecalho{
+  width: 3em;
+}
